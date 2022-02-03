@@ -1,0 +1,104 @@
+body{
+ }
+ 
+ .compose{
+  box-shadow: 1px 1px 1px 1px #aaaaaa;
+	 border-radius:20px;
+	 color:black;
+	 width:150px;
+    font-size: 14px;
+    margin-bottom:10px;
+ }
+ .checkbox{
+ 	margin:0;
+ 	background:white; 
+ }
+ .active{
+	color:black;
+ }
+ span{
+ 	margin-left:10px;
+ 
+ }
+ .li1{
+ margin-top:20px;
+ 
+ }
+ .bg{
+  	background-color:white; 
+  	color:black;
+ }
+ .material-icons {
+  color: grey;
+}
+.headerMiddle input{
+  border: none;
+  width: 90%;
+  padding: 10px;
+  outline: none;
+  font-size: medium;
+  background-color: transparent;
+}
+.emailRow:hover{
+border-top : 1px solid whitesmoke;
+box-shadow : 4px 4px 2px rgba(0,0,0,0.25);
+}
+.headerRight{
+  display: flex;
+  padding-right: 20px;
+}
+.headerRight span{
+  padding: 10px;
+  cursor: pointer;
+}
+ .headerLeft img{
+  object-fit: contain;
+  height: 40px;
+  margin-left: 5px;
+}
+.sidebar img{
+  height: 70px;
+  margin-left:1px;
+}
+.header{
+	margin:0;
+  display: flex;
+  justify-content:space-between;
+}
+.headerLeft {
+  display: flex;
+  align-items: center;
+}
+.headerLeft span{
+  padding: 10px;
+  cursor: pointer;
+}  
+.headerMiddle {
+  display: flex;
+  flex: 0.7;
+  align-items: center;
+  background-color: whitesmoke;
+  padding: 6px;
+  border-radius: 2px;
+}
+.nav-tabs .glyphicon:not(.no-margin) {
+ 	margin-right:10px; 
+ }
+.tab-pane .list-group-item:first-child {
+	border-top-right-radius: 0px;
+	border-top-left-radius: 0px;
+}
+.tab-pane .list-group-item:last-child {
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+.tab-pane .list-group .checkbox {
+ 	display: inline-block;
+ 	margin: 0px;
+}
+.tab-pane .list-group input[type="checkbox"]{
+ 	margin-top: 2px; 
+ }
+.tab-pane .list-group .glyphicon {
+ 	margin-right:5px; 
+ }

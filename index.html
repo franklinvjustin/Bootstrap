@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>GMAIL Bootstrap Example</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body >
+		<div class="header">
+			<div class="headerLeft">
+				<span class="material-icons"> menu </span>
+				<img src="image/gmailimage.png" alt="" />
+			</div>
+			<div class="headerMiddle">
+				<span class="material-icons"> search </span>
+				<input type="text" placeholder="Search mail" />
+				<span class="material-icons">arrow_drop_down</span>
+			</div>
+			<div class="headerRight">
+				<span class="material-icons">help</span>
+				<span class="material-icons"> settings </span>
+				<span class="material-icons"> apps </span>      
+				<span class="material-icons"> account_circle </span>	
+			</div>
+		</div>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-3 col-md-2">
+					<a href="#" class="btn btn-white btn-sm btn-block compose" role="button">Compose</a>
+				</div>
+				<div class="col-sm-9 col-md-10">
+					<div class="btn-group btn-white">
+						<button type="button" class="btn btn-white bg">
+							<div class="checkbox bg-white bg" >
+								<label>
+								<input type="checkbox">
+								</label>
+							</div>
+						</button>
+						<button type="button" class="btn bg dropdown-toggle" data-toggle="dropdown">
+						<span class="caret"></span><span class="sr-only">Toggle Dropdown</span>
+						</button>
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="#">All</a></li>
+							<li><a href="#">None</a></li>
+							<li><a href="#">Read</a></li>
+							<li><a href="#">Unread</a></li>
+							<li><a href="#">Starred</a></li>
+							<li><a href="#">Unstarred</a></li>
+						</ul>
+					</div>
+					<button type="button" class="btn bg" data-toggle="tooltip" title="Refresh">
+					   <span class="glyphicon glyphicon-refresh"></span>   </button>
+					<div class="btn-group">
+						<i class="glyphicon glyphicon-option-vertical"></i>
+					</div>
+					<div class="pull-right">
+						<span class="text-muted"><b>1</b>–<b>50</b> of <b>277</b></span>
+						<div class="btn-group btn-group-sm">
+							<button type="button" class="btn bg">
+							<span class="glyphicon glyphicon-chevron-left"></span>
+							</button>
+							<button type="button" class="btn bg">
+							<span class="glyphicon glyphicon-chevron-right"></span>
+							</button>
+							<button type="button" class="btn bg">
+							<i class="glyphicon glyphicon-indent-left"></i>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr />
+			<div class="row">
+				<div class="col-sm-3 col-md-2">
+					<ul class="nav nav-pills nav-stacked">
+						<li  ><span class="glyphicon glyphicon-inbox">
+							</span>  <span class="badge pull-right">3</span>Inbox
+						</li>
+						<li class="li1"><span class="glyphicon glyphicon-inbox">
+							</span>  Starred
+						</li>
+						<li class="li1" ><span class="glyphicon glyphicon-inbox">
+							</span>  Important
+						</li>
+						<li class="li1" ><span class="glyphicon glyphicon-inbox">
+							</span>  Send
+						</li>
+						<li class="li1"><span class="glyphicon glyphicon-inbox">
+							</span> <span class="badge pull-right">3</span> Draft
+						</li>
+					</ul>
+				</div>
+				<div class="col-sm-9 col-md-10">
+					<!-- Nav tabs -->
+					<ul class="nav nav-tabs">
+						<li class="active bg"><a href="#home" data-toggle="tab"><span class="glyphicon glyphicon-inbox">
+							</span>Primary</a>
+						</li>
+						<li class="active bg"><a href="#profile" data-toggle="tab"><span class="glyphicon glyphicon-user"></span>
+							Social</a>
+						</li>
+						<li class="active bg"><a href="#messages" data-toggle="tab"><span class="glyphicon glyphicon-tags"></span>
+							Promotions</a>
+						</li>
+					</ul>
+					<div class="tab-content">
+						<div class="tab-pane fade in active" id="home">
+							<div class="list-group">
+								<a href="#" class="list-group-item">
+									<div class="checkbox">
+										<label>
+										<input type="checkbox">
+										</label>
+									</div>
+									<span class="glyphicon glyphicon-star-empty"></span><span class="name" style="min-width: 120px;
+										display: inline-block;">Unkwon</span> <span class="">This is big title</span>
+									<span class="text-muted" style="font-size: 11px;">- Hi hello how r u ?</span> <span
+										class="badge bg">12:10 AM</span> <span class="pull-right"><span class="glyphicon glyphicon-paperclip">
+									</span></span>
+								</a>
+								<a href="#" class="list-group-item">
+									<div class="checkbox">
+										<label>
+										<input type="checkbox">
+										</label>
+									</div>
+									<span class="glyphicon glyphicon-star-empty"></span><span class="name" style="min-width: 120px;
+										display: inline-block;">Unknown</span> <span class="">This is big title</span>
+									<span class="text-muted" style="font-size: 11px;">- Hi hello how r u ?</span> <span
+										class="badge bg">12:10 AM</span> <span class="pull-right"><span class="glyphicon glyphicon-paperclip">
+									</span></span>
+								</a>
+								<a href="#" class="list-group-item read">
+									<div class="checkbox">
+										<label>
+										<input type="checkbox">
+										</label>
+									</div>
+									<span class="glyphicon glyphicon-star"></span><span class="name" style="min-width: 120px;
+										display: inline-block;">Unknown</span> <span class="">This is big title</span>
+									<span class="text-muted" style="font-size: 11px;">- Hi hello how r u ?</span> <span
+										class="badge bg">12:10 AM</span> <span class="pull-right"><span class="glyphicon glyphicon-paperclip">
+									</span></span>
+								</a>
+								<a href="#" class="list-group-item">
+									<div class="checkbox">
+										<label>
+										<input type="checkbox">
+										</label>
+									</div>
+									<span class="glyphicon glyphicon-star-empty"></span><span class="name" style="min-width: 120px;
+										display: inline-block;">Unkwon</span> <span class="">This is big title</span>
+									<span class="text-muted" style="font-size: 11px;">- Hi hello how r u ?</span> <span
+										class="badge bg">12:10 AM</span> <span class="pull-right"><span class="glyphicon glyphicon-paperclip">
+									</span></span>
+								</a>
+								<a href="#" class="list-group-item">
+									<div class="checkbox">
+										<label>
+										<input type="checkbox">
+										</label>
+									</div>
+									<span class="glyphicon glyphicon-star-empty"></span><span class="name" style="min-width: 120px;
+										display: inline-block;">Unkwon</span> <span class="">This is big title</span>
+									<span class="text-muted" style="font-size: 11px;">- Hi hello how r u ?</span> <span
+										class="badge bg">12:10 AM</span> <span class="pull-right"><span class="glyphicon glyphicon-paperclip">
+									</span></span>
+								</a>
+								<a href="#" class="list-group-item">
+									<div class="checkbox">
+										<label>
+										<input type="checkbox">
+										</label>
+									</div>
+									<span class="glyphicon glyphicon-star-empty"></span><span class="name" style="min-width: 120px;
+										display: inline-block;">Unkwon</span> <span class="">This is big title</span>
+									<span class="text-muted" style="font-size: 11px;">- Hi hello how r u ?</span> <span
+										class="badge bg">12:10 AM</span> <span class="pull-right"><span class="glyphicon glyphicon-paperclip">
+									</span></span>
+								</a>
+								<a href="#" class="list-group-item">
+									<div class="checkbox">
+										<label>
+										<input type="checkbox">
+										</label>
+									</div>
+									<span class="glyphicon glyphicon-star-empty"></span><span class="name" style="min-width: 120px;
+										display: inline-block;">Unkwon</span> <span class="">This is big title</span>
+									<span class="text-muted" style="font-size: 11px;">- Hi hello how r u ?</span> <span
+										class="badge bg">12:10 AM</span> <span class="pull-right"><span class="glyphicon glyphicon-paperclip">
+									</span></span>
+								</a>
+								<a href="#" class="list-group-item">
+									<div class="checkbox">
+										<label>
+										<input type="checkbox">
+										</label>
+									</div>
+									<span class="glyphicon glyphicon-star-empty"></span><span class="name" style="min-width: 120px;
+										display: inline-block;">Unkwon</span> <span class="">This is big title</span>
+									<span class="text-muted" style="font-size: 11px;">- Hi hello how r u ?</span> <span
+										class="badge bg">12:10 AM</span> <span class="pull-right"><span class="glyphicon glyphicon-paperclip">
+									</span></span>
+								</a>
+								<a href="#" class="list-group-item">
+									<div class="checkbox">
+										<label>
+										<input type="checkbox">
+										</label>
+									</div>
+									<span class="glyphicon glyphicon-star-empty"></span><span class="name" style="min-width: 120px;
+										display: inline-block;">Unkwon</span> <span class="">This is big title</span>
+									<span class="text-muted" style="font-size: 11px;">- Hi hello how r u ?</span> <span
+										class="badge bg">12:10 AM</span> <span class="pull-right"><span class="glyphicon glyphicon-paperclip">
+									</span></span>
+								</a>
+								<a href="#" class="list-group-item">
+									<div class="checkbox">
+										<label>
+										<input type="checkbox">
+										</label>
+									</div>
+									<span class="glyphicon glyphicon-star-empty"></span><span class="name" style="min-width: 120px;
+										display: inline-block;">Unkwon</span> <span class="">This is big title</span>
+									<span class="text-muted" style="font-size: 11px;">- Hi hello how r u ?</span> <span
+										class="badge bg">12:10 AM</span> <span class="pull-right"><span class="glyphicon glyphicon-paperclip">
+									</span></span>
+								</a>
+								<a href="#" class="list-group-item">
+									<div class="checkbox">
+										<label>
+										<input type="checkbox">
+										</label>
+									</div>
+									<span class="glyphicon glyphicon-star-empty"></span><span class="name" style="min-width: 120px;
+										display: inline-block;">Unkwon</span> <span class="">This is big title</span>
+									<span class="text-muted" style="font-size: 11px;">- Hi hello how r u ?</span> <span
+										class="badge bg">12:10 AM</span> <span class="pull-right"><span class="glyphicon glyphicon-paperclip">
+									</span></span>
+								</a>
+								<a href="#" class="list-group-item">
+									<div class="checkbox">
+										<label>
+										<input type="checkbox">
+										</label>
+									</div>
+									<span class="glyphicon glyphicon-star-empty"></span><span class="name" style="min-width: 120px;
+										display: inline-block;">Unkwon</span> <span class="">This is big title</span>
+									<span class="text-muted" style="font-size: 11px;">- Hi hello how r u ?</span> <span
+										class="badge bg">12:10 AM</span> <span class="pull-right"><span class="glyphicon glyphicon-paperclip">
+									</span></span>
+								</a>
+								<a href="#" class="list-group-item">
+									<div class="checkbox">
+										<label>
+										<input type="checkbox">
+										</label>
+									</div>
+									<span class="glyphicon glyphicon-star-empty"></span><span class="name" style="min-width: 120px;
+										display: inline-block;">Unkwon</span> <span class="">This is big title</span>
+									<span class="text-muted" style="font-size: 11px;">- Hi hello how r u ?</span> <span
+										class="badge bg">12:10 AM</span> <span class="pull-right"><span class="glyphicon glyphicon-paperclip">
+									</span></span>
+								</a>
+							</div>
+						</div>
+						<div class="tab-pane fade in" id="profile">
+							<div class="list-group">
+								<div class="list-group-item">
+									<span class="text-center">This tab is empty.</span>
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane fade in" id="messages">
+							...
+						</div>
+						<div class="tab-pane fade in" id="settings">
+							This tab is empty.
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
